@@ -11,6 +11,7 @@
 // Se o valor depositado na criação da conta for de R$500,00 ou menos o cheque especial deve ser de R$50,00
 // Para valores acima de R$500,00 o cheque especial deve ser de 50% do valor depositado;
 // Caso o limite de cheque especial seja usado, assim que possível a conta deve cobrar uma taxa de 20% do valor usado do cheque especial.
+package Exercicio1;
 
 public class BankAccount {
     
