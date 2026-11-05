@@ -1,4 +1,4 @@
-package Exercicio3;
+package ExerciciosHerança.Exercicio1;
 
 public class EntradaFamilia extends Ingresso {
 

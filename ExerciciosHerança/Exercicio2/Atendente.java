@@ -1,4 +1,4 @@
-package Exercicio4;
+package ExerciciosHerança.Exercicio2;
 //Valor em caixa e um atributo que informa se ele é administrador, esse ultimo deve ser sempre falso.
 public class Atendente extends Funcionario {
 

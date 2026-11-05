@@ -1,4 +1,4 @@
-package Exercicio1;
+package ExerciciosClasses.Exercicio1;
 
 public class BankAccount {
     
