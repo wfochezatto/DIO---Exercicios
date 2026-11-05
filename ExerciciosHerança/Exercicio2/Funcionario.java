@@ -43,4 +43,26 @@ public class Funcionario {
     public Boolean getAdmin() {
         return admin;
     }
+
+    public void realizarLogin(String email, String senha) {
+        if (this.email.equals(email) && this.senha.equals(senha)) {
+            System.out.println("Login realizado com sucesso!");
+        } else {
+            System.out.println("Email ou senha incorretos.");
+        }
+        
+    }
+
+    public void realizarLogoff(){
+        System.out.println("Logoff realizado com sucesso!");
+    }
+
+    public void alterarDados(String nome, String email) {
+        setNome(nome);
+        setEmail(email);
+    }
+
+    public void alterarSenha(String senha) {
+        setSenha(senha);
+    }
 }

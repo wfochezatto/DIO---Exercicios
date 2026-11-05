@@ -16,4 +16,12 @@ public class Atendente extends Funcionario {
     public void setValorEmCaixa(Float valorEmCaixa) {
         this.valorEmCaixa = valorEmCaixa;
     }
+
+    public void receberPagamento(Float valor) {
+        this.valorEmCaixa += valor;
+    }
+
+    public void fecharCaixa() {
+        this.valorEmCaixa = 0.0f;
+    }
 }

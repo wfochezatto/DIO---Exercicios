@@ -8,11 +8,21 @@ public class Vendedor extends Funcionario{
         super(nome, email, senha, false);
         this.quantidadeVendas = quantidadeVendas;
     }
+
     public Integer getQuantidadeVendas() {
         return quantidadeVendas;
     }
 
     public void setQuantidadeVendas(Integer quantidadeVendas) {
         this.quantidadeVendas = quantidadeVendas;
+    }
+
+    public void realizarVenda() {
+        this.quantidadeVendas++;
+        
+    }
+
+    public void consultarVendas() {
+        System.out.println("Quantidade de vendas realizadas: " + getQuantidadeVendas());
     }
 }
