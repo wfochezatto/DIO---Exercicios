@@ -2,18 +2,18 @@ package ExerciciosHerança.Exercicio2;
 
 public class Vendedor extends Funcionario{
 
-    private Integer quantidadeVendas;
+    private int quantidadeVendas;
 
-    public Vendedor(String nome, String email, String senha, Integer quantidadeVendas) {
+    public Vendedor(String nome, String email, String senha, int quantidadeVendas) {
         super(nome, email, senha, false);
         this.quantidadeVendas = quantidadeVendas;
     }
 
-    public Integer getQuantidadeVendas() {
+    public int getQuantidadeVendas() {
         return quantidadeVendas;
     }
 
-    public void setQuantidadeVendas(Integer quantidadeVendas) {
+    public void setQuantidadeVendas(int quantidadeVendas) {
         this.quantidadeVendas = quantidadeVendas;
     }
 
